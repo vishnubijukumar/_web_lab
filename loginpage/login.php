@@ -21,7 +21,7 @@ if($res_ar["_username"]==$uname && $res_ar["_password"]==$password)
   $_SESSION['_username']=$res_ar["_username"];
   $_SESSION['_password']=$res_ar["_password"];
 header("location:profile.php");
-echo $_SESSION['_username'];
+// echo $_SESSION['_username'];
 }
 else
 $error=true;
